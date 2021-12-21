@@ -1075,7 +1075,11 @@ button:focus {
 	1.BASIC STYLE
 ===========================*/	
 
-	
+	.nft_container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
 	.section_intro p {
 		font-size: 24px;
 		color: #22264a !important;
