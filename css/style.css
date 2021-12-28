@@ -23,6 +23,11 @@
 	clear: both;
 }
 
+p {
+	font-family :"Poppins";
+
+}
+
 body {
 	font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: #515158;
@@ -706,25 +711,25 @@ button:focus {
 
 .grouped-by-category [data-category='1']:first-child::before,
 .grouped-by-category :not([data-category='1']) + [data-category='1']::before {
-	content: 'Nourish & Refresh';
-	color: #7cbf7f;
+	content: 'Industry Leaders';
+	color: #00437a;
 }
 
 .grouped-by-category [data-category='2']:first-child::before,
 .grouped-by-category :not([data-category='2']) + [data-category='2']::before {
-	content: 'Learn & Create';
-	color: #6584c7;
+	content: 'Fashion Idols';
+	color: #2aa11f;
 }
 
 .grouped-by-category [data-category='3']:first-child::before,
 .grouped-by-category :not([data-category='3']) + [data-category='3']::before {
-	content: 'Swap & Give';
+	content: 'Sports & Fitness';
 	color: #dc4b7c;
 }
 
 .grouped-by-category [data-category='4']:first-child::before,
 .grouped-by-category :not([data-category='4']) + [data-category='4']::before {
-	content: 'Relax & Recharge';
+	content: 'Art & Culture';
 	color: #8d65e0;
 }
 
@@ -1722,6 +1727,15 @@ ul.menu-list li a {
     font-size: 28px;
 }
 
+.content__item-title {
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.content__item-title img {
+	height: 12rem;
+}
+
 /* Top Search
 =================================*/
 .top-search{
@@ -2039,12 +2053,16 @@ a.btn.intro-video {
     margin-top: 50px;
 
 }
+.responsive-fluid {
+	height: 320px;
+	width: 320px;
+}
 .single_product {
     background: #1c1c3f;
     transition:all .4s ease;
 	border-radius:.8rem;
-	width: 20rem;
-	height: 30rem;
+	width: 350px;
+	height: 35rem;
 }	
 .single_product:hover {
 	transform: translateY(-8px);
@@ -2122,8 +2140,15 @@ span.sale-count {
     margin-right: 8%;
     padding-top: 0;
     margin-top: -.8rem;
+	position: absolute;
+	
+}
+
+.pricing {
 	display: flex;
 	justify-content: end;
+	width: 100%;
+	padding-right: 1.5rem;
 }
 
 .author-details .profile-rating {
@@ -2147,11 +2172,14 @@ span.thumbsup {
 }
 span.sale-counter {
     position: relative;
+	vertical-align: middle;
     top: 5px;
-    font-weight: 500;
+    font-weight: 700;
     left: 0px;
-    color: #cacad3 !important;
-    font-size: 14px;
+    color: #dfecf4  !important;
+    font-size: 16px;
+	text-align: center;
+	padding-left: 5px;
 }
 span.product_author {
     font-size: 14px;
@@ -2186,6 +2214,7 @@ span.product-icon i {
 span.sale-count i {
     background: #F7F8FC;
     color: #6B3AAD;
+
 }
 .nft_product_link ul {
     margin: 0;
