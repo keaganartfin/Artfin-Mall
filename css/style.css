@@ -1267,31 +1267,31 @@ button:focus {
 
 	/* width */
 	::-webkit-scrollbar {
-	  width: 10px;
+	  width: 0px;
 	}
 
 	/* Track */
-	::-webkit-scrollbar-track {
+	/* ::-webkit-scrollbar-track {
 	  background:transparent; 
-	}
+	} */
 	 
 	/* Handle */
-	::-webkit-scrollbar-thumb {
-    background: #FE5F75;
-	background: -webkit-linear-gradient( -164deg, rgb(254,95,117) 0%, rgb(255,103,124) 100%) !important;
-	background: -moz-linear-gradient( -164deg, rgb(254,95,117) 0%, rgb(255,103,124) 100%) !important;
-	background: -ms-linear-gradient( -164deg, rgb(254,95,117) 0%, rgb(255,103,124) 100%) !important;
+	/* ::-webkit-scrollbar-thumb {
+    background: #0a0a0a;
+	background: -webkit-linear-gradient( -164deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%) !important;
+	background: -moz-linear-gradient( -164deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%) !important;
+	background: -ms-linear-gradient( -164deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%) !important;
 		border-radius:5px;
 		transition:all .4s ease;
-	}
+	} */
 
 	/* Handle on hover */
-	::-webkit-scrollbar-thumb:hover {
+	/* ::-webkit-scrollbar-thumb:hover {
     background: #FE5F75;
 	background: -webkit-linear-gradient( -164deg, rgb(254,95,117) 0%, rgb(255,103,124) 100%) !important;
 	background: -moz-linear-gradient( -164deg, rgb(254,95,117) 0%, rgb(255,103,124) 100%) !important;
 	background: -ms-linear-gradient( -164deg, rgb(254,95,117) 0%, rgb(255,103,124) 100%) !important;
-	}
+	} */
 	body{
 		background:#f7f8fc !important;		
 	}
@@ -1742,7 +1742,6 @@ ul.menu-list li a {
 		font-weight: 600;
 		position: absolute;
 		left: 10rem;
-		padding-bottom: 10rem;
 	}
 
 	
